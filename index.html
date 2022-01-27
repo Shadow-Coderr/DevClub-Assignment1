@@ -1,10 +1,272 @@
-<html>
-	<head>
-		<title>
-			Hello World
-		</title>
-	</head>
-	<body>
-		Write your code for the submission by editing this file
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid guide</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="left">
+            <div>Coviguide</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#home"">Home</a></li>
+                <li><a href=" #symptoms">Symptoms and their cures</a></li>
+                <li><a href="#prevention">Prevention</a></li>
+                <li><a href="#myths">Mythbuster</a></li>
+                <li><a href="#faqs">FAQs</a></li>
+                <li><a href="#ytvideo">Youtube videoes</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+    <div class="home" id="home">
+        <div id="div1">A COMPLETE GUIDE FOR COVID-19</div>
+        <div id="div2"> Caught in frenzy of fear after listening about increasing covid cases? Wanna know the symptoms
+            of covid and know how to prevent it? Don't worry I am here to help you, by bringing to you, your COVIGUIDE.
+        </div>
+        <img id="img2"
+            src="https://www.voicesofyouth.org/sites/voy/files/styles/blog_teaser/public/images/2020-08/lara_and_friends_animation_3.png?h=9ce06576&itok=37aZbMwF"
+            alt="error loading image">
+
+    </div>
+
+    <br><br><br><br>
+
+    <div class="symptoms" id="symptoms">
+        <h1>COMMON SYMPTOMS AND THEIR CURE</h1>
+
+        <table border="">
+            <thead>
+                <tr>
+                    <th>SYMPTOMS</th>
+                    <th>SEVERITY</th>
+                    <th>MEASURES TO BE TAKEN</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <img src="https://i.pinimg.com/736x/7b/ba/19/7bba19e451df01366571765e46e9838b.jpg" id="cough">
+                    <td>Cough</td>
+                    <td>Moderate</td>
+                    <td class="th3">
+                        <ul>
+                            <li>Take steam</li>
+                            <li>Isolate yourself in your home</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <img src="https://thumbs.dreamstime.com/b/sick-cute-boy-sleep-bed-thermometer-mouth-feel-bad-fever-sick-cute-boy-sleep-bed-feel-bad-103795028.jpg"
+                        id="fever">
+                    <td>Fever</td>
+                    <td>Mild to moderate</td>
+                    <td class="th3">
+                        <ul>
+                            <li>Consult a doctor</li>
+                            <li>Isolate yourself</li>
+                            <li>Take medications like paracetamol and ibuprufen</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Difficulty in breathing</td>
+                    <td>Moderate to high</td>
+                    <td class="th3">
+                        <ul>
+                            <li>Sit forward support by a table</li>
+                            <li>Use a nebuliser</li>
+                            <li>Consult a doctor and quarintine yourself</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <img src="https://thumbs.dreamstime.com/b/man-muscle-pain-sport-trauma-sickness-ncov-man-muscle-pain-sport-trauma-sickness-ncov-symptom-virus-prevention-177352368.jpg"
+                        id="muscleache">
+                    <td>Muscle or body aches</td>
+                    <td>Mild</td>
+                    <td class="th3">
+                        <ul>
+                            <li>Take bedrest</li>
+                            <li>Take anti inflammatory medication like advil </li>
+                            <li>Don't perform exhaustive work </li>
+                            <li>Isolate yourself </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Loss of smell and taste</td>
+                    <td>Mild</td>
+                    <td class="th3">
+                        <ul>
+                            <li>Consult a doctor</li>
+                            <li>Quarintine yourself</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- <p>Most infected people will develop mild to moderate illness and recover without hospitalization. On average it takes 5–6 days from when someone is infected with the virus for symptoms to show, however it can take up to 14 days.</p> -->
+    </div>
+
+
+    <div class="prevention" id="prevention">
+        <div class="heading">SAFETY MEASURES</div>
+        <h1>Prevention is better than cure!!</h1>
+        <div class="images">
+            <img src="data:image/jpeg;base64,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"
+                alt="error loading image" id="mask">
+            <img src="https://media.istockphoto.com/vectors/steps-washing-hands-frequently-pandemic-of-coronavirus-self-protect-vector-id1248523922"
+                alt="error loading image" id="handwash">
+            <img src="https://w.ndtvimg.com/sites/3/2020/06/24121541/coroanavirus_social_distancing_prevent_second_wave_covid19_istock_660x330.jpg"
+                alt="" id="socialdis">
+            <img src="https://image.shutterstock.com/z/stock-vector-coronavirus-precautions-ncov-the-call-to-avoid-crowded-places-a-young-man-in-a-medical-mask-1660942879.jpg"
+                alt="" id="crowd">
+            <img src="https://pvwomenscare.org/wp-content/uploads/2021/01/covid-19-vaccine.jpg" alt="" id="vaccination">
+            <img src="https://media.istockphoto.com/vectors/people-work-from-home-during-pandemic-corona-virus-covid-19-vector-id1226443906?s=612x612"
+                alt="" id="workfromhome">
+        </div>
+    </div>
+
+
+    <div class="myths" id="myths">
+        <div class="intro">
+            <h1>COMMON MYTHS ABOUT COVID</h1>
+            <img src="https://media.istockphoto.com/photos/trendy-banner-with-fake-news-on-blue-background-coronavirus-pandemic-picture-id1222044079?k=20&m=1222044079&s=612x612&w=0&h=ptk5Ia9PmFegQwMbXIj3ETUXslTHPkz_5O0rNx7dsrU="
+                id="img1">
+            <img src="https://thumbs.dreamstime.com/b/hand-turns-cube-changes-expression-corona-myths-to-facts-beautiful-yellow-table-white-background-covid-pandemic-concept-196521762.jpg"
+                id="img3">
+        </div>
+        <ol>
+            <div class="points">
+                <li>Myth:Coronavirus can't survive heat.</li>
+                <div>Fact:Exposing yourself to the sun or temperatures higher than 25°C DOES NOT protect you from
+                    COVID-19.You can catch covid no matter how sunny or hot the weather is.
+
+                </div>
+            </div>
+            <div class="points">
+                <li> Myth: Vaccines don’t work against Omicron</li>
+                <div>Fact:Vaccines offer the best available protection against Omicron. Vaccination is expected to
+                    provide
+                    important protection against severe disease and death caused by Omicron. </div>
+
+            </div>
+            <div class="points">
+                <li>Myth: Omicron is just like a common cold.</li>
+                <div>Fact: Omicron is much more dangerous than a common cold.Omicron is not like a common cold because
+                    it is more likely than a cold to land you in hospital. </div>
+            </div>
+            <div class="points" id="point4">
+                <li>Myth: Previous infection provides immunity from Omicron.</li>
+                <div>Fact: Omicron can reinfect people that have previously had COVID-19. If you have had COVID-19
+                    previously, you should still get vaccinated, as reinfection from Omicron is still possible.</div>
+            </div>
+
+        </ol>
+    </div>
+
+
+
+    <div class="faqs" id="faqs">
+        <img src="https://www.evansexpresslaundry.com/media/1171/faq-banner-graphic-min.jpg" alt="" id="imgfaq">
+        <div class="faqitem" id="ques1">
+            <a class="ques" href="#ques1">
+                Will COVID 19 vaccine be given to everyone simultaneously?
+                <ion-icon name="add"></ion-icon>
+            </a>
+            <div class="ans">
+                <p>Based on the potential availability of vaccines the Government of India has selected the priority
+                    groups
+                    who will be vaccinated on priority as they are at higher risk</p>
+            </div>
+        </div>
+        <div class="faqitem" id="ques2">
+            <a class="ques" href="#ques2">
+                Can a child under the age of 18 gets vaccinted?
+                <ion-icon name="add"></ion-icon>
+            </a>
+            <div class="ans">
+                <p> Yes.After months of research and tests vaccination is available for children from 15-18 yrs from jan
+                    3,2022.</p>
+            </div>
+        </div>
+        <div class="faqitem" id="ques3">
+            <a class="ques" href="#ques3">
+                Should vaccination be taken as it causes fever and body ache?
+                <ion-icon name="add"></ion-icon>
+            </a>
+            <div class="ans">
+                <p>Yes, it is must to take vaccination. if you are getting fever and body aches then it is good sign as
+                    vaccine is working and your body is producing antibodies to fight virus.</p>
+            </div>
+        </div>
+        <div class="faqitem" id="ques4">
+            <a class="ques" href="#ques4">
+                Is vaccine safe for pregnent women?
+                <ion-icon name="add"></ion-icon>
+            </a>
+            <div class="ans">
+                <p>Experts are of the view that the benefits of vaccination to the pregnant women outweigh its potential
+                    risks. A pregnant woman who opts for vaccination, could be vaccinated at any time of the pregnancy
+                </p>
+            </div>
+        </div>
+        <div class="faqitem" id="ques5">
+            <a class="ques" href="#ques5">
+                What documents are needed to register for getting vaccinated?
+                <ion-icon name="add"></ion-icon>
+            </a>
+            <div class="ans">
+                <p>Any of the following documents will work:
+                <ul>
+                    <li>Aadhar card</li>
+                    <li>Driving license</li>
+                    <li>Pan card</li>
+                    <li>Passport</li>
+
+                </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="yt" id="ytvideo">
+        <h1>YOUTUBE VIDEOES</h1>
+        <div class="ytvideo">
+            <embed src="https://www.youtube.com/embed/BtN-goy9VOY" class="video" id="v1">
+            <embed src="https://www.youtube.com/embed/5DGwOJXSxqg" class="video" id="v2">
+            <embed src="https://www.youtube.com/embed/xVu_I6WCsto" class="video" id="v3">
+            <embed src="https://www.youtube.com/embed/ffZd8TytOAg" class="video" id="v4">
+            <embed src="https://www.youtube.com/embed/Tzo_ewu-E6U" class="video" id="v5">
+            <embed src="https://www.youtube.com/embed/_1R_pg5QasA" class="video" id="v6">
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="f1">Made By: Sukhpreet Singh</div>
+        <div class="f2">Last Updated: 27th Jan 2022, 9:02 AM </div>
+        <div class="f3">
+            <div>Contact me:</div>
+            <div>Gmail: xxxxxxxxx@gmail.com </div>
+            <div>Whatsapp: 98xxx-xxxx7</div>
+            <div>Instagram: xxx__xx_</div>
+            </div>
+        
+    </footer>
+
+</body>
+
 </html>
