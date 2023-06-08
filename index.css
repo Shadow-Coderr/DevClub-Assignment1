@@ -1,7 +1,7 @@
 body{
-    background: url('background\ image.jpg');
+    background: url('backgroundimage.jpg');
     background-repeat: no-repeat;
-    background-size: 1349px 650px;
+    background-size: 1549px 850px;
     color:beige;
     font-family: 'Balsamiq Sans', cursive;
     margin:0;
@@ -92,9 +92,9 @@ body{
 .symptoms{
     background-image: url("https://st2.depositphotos.com/8843414/12482/v/950/depositphotos_124820806-stock-illustration-abstract-technology-innovation-bright-background.jpg");
     background-repeat: no-repeat;
-    background-size: 1349px 1000px; 
+    background-size: 1549px 850px; 
     color: black;
-    margin: 0 0;
+    margin: 100px 0;
     padding: 20px 0px;
     overflow: hidden;
 }
@@ -137,8 +137,8 @@ table{
 
 #cough{
     position: absolute;
-    top: 650px;
-    left: 171px;
+    top: 750px;
+    left: 261px;
     height: 45%;
     width: 20%;
     border-radius: 200px;
@@ -157,7 +157,7 @@ table{
     background-image: url("https://img.freepik.com/free-vector/dark-low-poly-background_1048-7971.jpg?size=626&ext=jpg");
     border-radius: 20px;
     background-repeat: no-repeat;
-    background-size: 1349px 1200px; 
+    background-size: 1449px 1400px; 
     overflow: hidden;
     width: 98%;
     margin: 10px auto;
@@ -180,7 +180,7 @@ table{
     background-color: #0404049c;
     border-radius: 200px;
     margin: 450px auto;
-    padding: 74px 20px;
+    padding: 74px 0px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 200px;
@@ -189,7 +189,7 @@ table{
 
 #mask{
     position: absolute;
-    top : 1500px;
+    top : 1700px;
     left: 35%;
     padding: 10px 10px;
     margin: 10px 10px;
@@ -199,7 +199,7 @@ table{
 
 #handwash{
     position: absolute;
-    top : 2150px;
+    top : 2250px;
     left: 35%;
     padding: 10px 10px;
     margin: 10px 10px;
@@ -209,7 +209,7 @@ table{
 
 #socialdis{
     position: absolute;
-    top : 1630px;
+    top : 1800px;
     right: 5%;
     padding: 10px 10px;
     margin: 10px 10px;
@@ -219,8 +219,8 @@ table{
 
 #crowd{
     position: absolute;
-    top : 1630px;
-    left: 5%;
+    top : 1800px;
+    left: 4%;
     padding: 10px 10px;
     margin: 10px 10px;
     width: 25%;
@@ -230,7 +230,7 @@ table{
 #vaccination{
     position: absolute;
     top : 2030px;
-    left: 5%;
+    left: 4%;
     padding: 10px 10px;
     margin: 10px 10px;
     width: 25%;
@@ -261,7 +261,7 @@ table{
 
 .myths h1{
 position: absolute;
-top:2600px;
+top:2800px;
 width: 30%;
 margin: 0 0;
 text-align: center;
@@ -287,7 +287,7 @@ text-decoration: underline;
 
 #point4{
     position: absolute;
-    top : 3300px;
+    top : 3500px;
     left: 70px;
     margin: 0px;
     width: 90%;
@@ -299,14 +299,14 @@ text-decoration: underline;
     height:40%;
     width: 30%;
     left: 500px;
-    top: 2550px;
+    top: 2750px;
 }
 #img3{
     position: absolute;
     height:40%;
     width: 30%;
     right: 100px;
-    top: 2680px;
+    top: 2880px;
 }
 
 .faqs{
